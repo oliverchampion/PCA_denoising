@@ -1,10 +1,11 @@
 function PCAcutoff = PCAcutoff(comp,score,options)
 
 
-%%
-% Select ideal number of PCs according to:
+% Denoise IVIM data according to: 
 % "Principal component analysis for fast and model-free denoising of multi b-value diffusion-weighted MR images"
-% by XXX et al. Investigative Radiology 2019 DOI: XXX
+% by Gurney-Champion et al. PMB 2019 DOI: https://doi.org/10.1088/1361-6560/ab1786
+%
+% Contact: o.j.gurney-champion@amsterdamumc.nl
 %
 % PCAcutoff = PCAcutoff(comp,score,options)
 %
