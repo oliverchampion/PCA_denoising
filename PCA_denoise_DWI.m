@@ -59,7 +59,7 @@ end
 [~, unshuffle]=sort(reshuffle);
 sel=sel(mask,:);
 
-[comp, score, latent]=pca(sel);
+[comp, score, latent]=pcaogc(sel);
 score=score(1:size(sel,1),:);
 
 %% option to pressent plots of the PC's.
